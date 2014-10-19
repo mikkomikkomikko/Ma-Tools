@@ -1,8 +1,5 @@
 /*Your styles*/
 
- body {
-    margin: 10px;
-}
 
 #content {
     margin-right:auto;
@@ -20,7 +17,7 @@
 }
 
 #tabBar{
-    margin-top: 20px;
+    /*margin-top: 20px;*/
 /*    
     margin-left: auto;
     margin-right: auto;    
@@ -41,7 +38,5 @@
 }
 
 .logo{
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
+fill: #ff0622;
 }
