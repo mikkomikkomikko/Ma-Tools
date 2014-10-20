@@ -7,61 +7,60 @@
     <!-- Will contain Topcoat original CSS href -->
     <link id="topcoat" rel="stylesheet" />
     <!-- Topcoat overrides (Font, etc) -->
+    <link rel="stylesheet" href="css/topcoat-desktop-darkdark.min.css" />
     <link id="topcoat-host" rel="stylesheet" href="css/topcoat-host.css" />
     <!-- Actual Panel styling -->
     <link rel="stylesheet" href="css/styles.css" />
-    <link rel="stylesheet" href="hint.css">
+
 
     <title></title>
 </head>
 
 <body>
 
-    <div id="content">
-        <div id="main">
+    <div id="content" class="content">
 
-            <div id="tabBar" class="topcoat-tab-bar">
-                <label class="topcoat-tab-bar__item" id="mainPanelBt">
-                    <input type="radio" name="tab-bar" checked>
-                    <button class="topcoat-tab-bar__button">Tools</button>
-                </label>
-            </div>
+        <div class="topcoat-button-bar">
+            <button id="fitToViewBt" class="topcoat-icon-button--large" title="testet">
+                <span class="topcoat-icon--large"><img src="img/fitToView.svg" width="17" height="17"></span>
+            </button>
 
 
-            <div id="mainPanel" class="panel">
-                <div class="topcoat-button-bar">
-                    <button id="fitToViewBt" class="topcoat-icon-button--large">
-                        <span class="topcoat-icon--large"><img src="img/fitToView.svg" width="17" height="17"></span>
-                    </button>
+            <button id="copyToMultipleObjectsBt" class="topcoat-icon-button--large">
+                <span class="topcoat-icon--large"><img src="img/copyToObject.svg" width="17" height="17"></span>
+            </button>
+
+        </div>
 
 
-                    <button id="newLayerBt" class="topcoat-icon-button--large">
-                        <span class="topcoat-icon--large"><img src="img/Layer.svg" width="17" height="17"></span>
-                    </button>
+        <div class="topcoat-button-bar">
+            <button id="newLayerBt" class="topcoat-icon-button--large">
+                <span class="topcoat-icon--large"><img src="img/Layer.svg" width="17" height="17"></span>
+            </button>
 
 
-                    <button id="distribBt" class="topcoat-icon-button--large">
-                        <span class="topcoat-icon--large"><img src="img/multipleLayers.svg" width="17" height="17"></span>
-                    </button>
+            <button id="distribBt" class="topcoat-icon-button--large">
+                <span class="topcoat-icon--large"><img src="img/multipleLayers.svg" width="17" height="17"></span>
+            </button>
+        </div>
 
 
-                    <button id="copyToMultipleObjectsBt" class="topcoat-icon-button--large">
-                        <span class="topcoat-icon--large"><img src="img/copyToObject.svg" width="17" height="17"></span>
-                    </button>
+        <!--Reload panel-->
+        <!--
+        <div class="topcoat-button-bar">
+            <button id="btn_reload" class="topcoat-icon-button--large">
+                <span class="topcoat-icon--large"><img src="img/Reload.svg" width="17" height="17"></span>
+            </button>
 
-                </div>
-                
-            </div>
-            <div class="topcoat-button-bar">
-                <button id="btn_reload" class="topcoat-icon-button--large">
-                    <span class="topcoat-icon--large"><img src="img/Reload.svg" width="17" height="17"></span>
-                </button>
-            </div>
+        </div>-->
+
+        <!--Footer-->
+        <div class="logo">
+            <img src="img/Ma-Logo.svg" width="32" height="16">
         </div>
     </div>
 
-
-    <script src="js/libs/CSInterface.js"></script>
+    <script src="js/libs/CSInterface-5.2.js"></script>
     <script src="js/libs/jquery-2.0.2.min.js"></script>
 
     <script src="js/themeManager.js"></script>

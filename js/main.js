@@ -77,7 +77,6 @@
         $("#fitToViewBt").click(function(){loadJSXFile("/jsx/ZoomAndCenterSelection.jsx");});
         $("#copyToMultipleObjectsBt").click(function(){loadJSXFile("/jsx/copyToMultipleObjects.jsx");});
         
-        
 
         $("#btn_reload").click(reloadPanel);
         
