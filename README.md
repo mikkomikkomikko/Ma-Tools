@@ -32,5 +32,16 @@ ZoomAndCenterSelection
 // JS code (c) copyright: John Wundes ( john@wundes.com ) www.wundes.com
 // copyright full text here:  http://www.wundes.com/js4ai/copyright.txt
 
+roundTransforms
+// Mikko Aaltonen
+// Copyright 2014
+// No Rights Reserved
+
+Specify
+// Copyright (c) 2009. William Ngan.
+// http://www.metaphorical.net
+
+
 ## Changelog
+**V1.1** Oct 2014.
 **V1.0** Oct 2014.
