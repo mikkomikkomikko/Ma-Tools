@@ -41,7 +41,13 @@ Specify
 // Copyright (c) 2009. William Ngan.
 // http://www.metaphorical.net
 
+CopySelectedToNewFile
+// Mikko Aaltonen
+// Copyright 2014
+// No Rights Reserved
+
 
 ## Changelog
+**V1.2** May 2015.
 **V1.1** Oct 2014.
 **V1.0** Oct 2014.
