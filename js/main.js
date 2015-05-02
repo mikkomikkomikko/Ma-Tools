@@ -28,6 +28,11 @@
         csInterface.evalScript('$._ext.evalFiles("' + extensionRoot + '")');
     }
 
+    // Loads / executes a AIA file
+    function loadAIAFile(pPath) {
+        var scriptPath = csInterface.getSystemPath(SystemPath.EXTENSION) + pPath;
+        csInterface.evalScript('$._ext.evalFile("' + scriptPath + '")');
+    }
 
 
     function init() {
@@ -114,6 +119,13 @@
         $("#MoveItemsToNearestPixelBt").click(function () {
             loadJSXFile("/jsx/MoveItemsToNearestPixel.jsx");
         });
+        
+        
+       $("#CopySelectionToNewFile").click(function () {
+            loadJSXFile("/jsx/CopyToNewfile.jsx");
+        });
+        
+        
         $("#MultiExporterBt").click(function () {
             loadJSXFile("/jsx/MultiExporter.jsx");
         });
@@ -122,6 +134,12 @@
             loadJSXFile("/jsx/mergeOverlappedAnchors.jsx");
         });
 
+        
+        $("#Exporter").click(function () {
+            loadJSXFile("/jsx/Exporter.jsx");
+        });
+
+        
         $("#specifyBt").click(function () {
             loadJSXFile("/jsx/specify.jsx");
         });

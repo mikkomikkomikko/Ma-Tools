@@ -34,7 +34,7 @@ getPng24Options = function ( transparency, scaling, embedImage, embedFont, trimE
 	options.antiAliasing = true;
 	options.transparency = transparency; 
 	options.artBoardClipping = true;
-	options.horizontalScale = scaling;
+   	options.horizontalScale = scaling;
 	options.verticalScale = scaling;	
 	return options;
 }
