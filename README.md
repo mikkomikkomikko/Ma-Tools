@@ -1,12 +1,22 @@
-MaTools
+Ma Tools
 =========================
 
 ToolBox for Illustrator
+
+## Install
+
+* http://zxpinstaller.com
+* com.ma.tools.zxp
 
 ![](img/Ma-Tools.png?raw=true)
 
 ## Features
 Scripts Included
+
+ProportionalScale
+// Mikko Aaltonen
+// Copyright 2014
+// No Rights Reserved
 
 copyToMultipleObjects
 // copyright: John Wundes ( john@wundes.com ) www.wundes.com
@@ -48,6 +58,7 @@ CopySelectedToNewFile
 
 
 ## Changelog
+**V1.3** Feb 2016.
 **V1.2** May 2015.
 **V1.1** Oct 2014.
 **V1.0** Oct 2014.

@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ExtensionManifest Version="5.0" ExtensionBundleId="com.ma.tools" ExtensionBundleVersion="1.0.0" ExtensionBundleName="Ma - Tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<ExtensionManifest Version="5.0" ExtensionBundleId="com.ma.tools" ExtensionBundleVersion="1.3.0"
+                   ExtensionBundleName="Ma - Tools" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<ExtensionList>
-		<Extension Id="com.ma.tools" Version="1.0" />
+		<Extension Id="com.ma.tools" Version="1.3" />
 	</ExtensionList>
 	<ExecutionEnvironment>
 		<HostList>
@@ -12,7 +13,7 @@
             <!--<Host Name="PHSP" Version="15.0" />-->
 
             <!-- Illustrator -->
-            <Host Name="ILST" Version="[18.0,18.9]" />
+            <Host Name="ILST" Version="19.0" />
             <!-- InDesign -->
             <!-- <Host Name="IDSN" Version="[10.0,10.9]" /> -->          
             <!-- Premiere -->

@@ -147,6 +147,10 @@
         $("#roundTransformsBt").click(function () {
             loadJSXFile("/jsx/roundTransforms.jsx");
         });
+        
+        $("#ProportionalScale").click(function () {
+            loadJSXFile("/jsx/ProportionalScale.jsx");
+        });
 
         $("#btn_reload").click(reloadPanel);
 
